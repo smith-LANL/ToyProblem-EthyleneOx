@@ -1,0 +1,13 @@
+[project]
+name = "ToyProblem-EthyleneOx"
+version = "0.1.0"
+description = "A simple multi-physics simulation of an ethylene-oxide reactor to be used as a
+               validation/uncertainty-quantification application."
+authors = [{name="Sean Smith", email="smith_sean@lanl.gov"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numbers", "inspect", "numpy", "scipy", "matplotlib", "jupyterlab"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
